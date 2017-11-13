@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "start": "node public/index.js",
+    "dev": "NODE_ENV=dev nodemon src/index.js --exec babel-node",
+    "test": "jest",
+    "build": "./node_modules/.bin/babel src -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "btc-e3": "^0.1.1",
+    "express": "^4.15.3",
+    "kraken-api": "^1.0.0",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.1.0",
+    "jest": "^20.0.4",
+    "nodemon": "^1.12.0"
+  },
+  "engines": {
+    "node": "8.1.0"
+  }
+}
