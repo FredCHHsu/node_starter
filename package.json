@@ -19,14 +19,10 @@
   "bugs": {
     "url": ""
   },
-  "homepage": "",
   "dependencies": {
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
-    "btc-e3": "^0.1.1",
-    "express": "^4.15.3",
-    "kraken-api": "^1.0.0",
-    "superagent": "^3.5.2"
+    "express": "^4.15.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
