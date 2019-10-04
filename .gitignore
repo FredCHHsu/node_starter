@@ -6,3 +6,4 @@ npm-debug.log
 config.js
 # Ignore all swap files
 *.swp
+*.log

@@ -1,7 +1,7 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "node starter",
+  "version": "0.01",
+  "description": "For quickly testing something in node",
   "main": "index.js",
   "scripts": {
     "postinstall": "npm run build",
@@ -35,8 +35,5 @@
     "eslint-plugin-react": "^7.1.0",
     "jest": "^20.0.4",
     "nodemon": "^1.12.0"
-  },
-  "engines": {
-    "node": "8.1.0"
   }
 }
